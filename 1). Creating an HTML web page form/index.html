@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="Stylesheet" type="text/css" href="styleindex.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <form action="send.php" method="POST" name="registrationform">
+            <h1>Registration Form</h1>
+            <div class="name">
+                <input type="text" placeholder="name" name="name" id="name" required>
+            </div>
+            <div class="surname">
+                <input type="text" placeholder="surname" name="surname" id="surname" required>
+            </div>
+            <div class="position">
+                <input type="text" placeholder="position" name="position" id="position" required>
+            </div>
+            <div class="mail">
+                <input type="email" placeholder="mail" name="mail" id="mail" required>
+            </div>
+            
+            <input type="submit" value="send">
+        </form>
+    </div>
+</body>
+
+</html>

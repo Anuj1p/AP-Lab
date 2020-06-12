@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>FoodShala</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .label {
+            align-content: center;
+            color: white;
+            align-content: center;
+        }
+        
+        body {
+            background-image: url('images/lily.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .front1{
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand" href="#">FoodShala</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="front1">
+    <h1 class="label">
+        Welcome To FoodShala, You want to 
+    </h1>
+    
+        <form action="user.php" method="GET">
+
+            <button type="submit" class="btn btn-primary">Order Food</button>
+        </form>
+        <form action="restro1.php" method="GET">
+            <button type="submit" class="btn btn-primary">Manage Your Restaurant</button>
+        </form>
+    </div>
+</body>
+
+</html>
